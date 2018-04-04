@@ -1,0 +1,26 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysql_khariss": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://root:kacang123@localhost/toko",
+    "database": "toko",
+    "password": "kacang123",
+    "name": "mysql_khariss",
+    "user": "root",
+    "connector": "mysql"
+  },
+  "kharis_mysqll": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://root:kacang123@localhost/kantor",
+    "database": "kantor",
+    "password": "kacang123",
+    "name": "kharis_mysqll",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
